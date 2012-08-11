@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>Znuny4OTRS-ExternalURLJump</Name>
+    <Version>1.0.3</Version>
+    <Framework>3.0.x</Framework>
+    <Framework>3.1.x</Framework>
+    <Vendor>Znuny GmbH</Vendor>
+    <URL>http://znuny.com/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">A feature to link external URLs in navigation bar.</Description>
+    <Description Lang="de">Eine Funktion um externe URLs aus der Navigation zu verlinkene.</Description>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/Znuny4OTRS-ExternalURLJump.xml"/>
+        <File Permission="644" Location="Kernel/Modules/ExternalURLJump.pm"/>
+    </Filelist>
+    <IntroInstall Type="pre" Title="Installations-Information" Lang="de"><![CDATA[
+        <br/>
+        <br/>
+        Welcome to <u>External URL Jump</u>!
+        <br/>
+        <br/>
+        <p>
+        You are about to install a extention to be able to link to an external URL via navigation bar.
+        </p>
+        <br/>
+        <br/>
+        <p>
+        To configure go to (just change the "URL" param in "Link" option and "Name" option):
+	<ul>
+          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
+          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
+	</ul>
+        </p>
+        <br/>
+        <br/>
+        <p>
+        Your Znuny Team!
+        <br/>
+        <a href="http://znuny.com/" target="_blank">http://znuny.com</a>
+        </p>
+        <br/>
+        <br/>
+    ]]></IntroInstall>
+    <IntroInstall Type="pre" Title="Pre-Install Information" Lang="en"><![CDATA[
+        <br/>
+        <br/>
+        Herzlich Willkommen zum <u>Externer URL Sprung</u>!
+        <br/>
+        <br/>
+        <p>
+        Sie sind gerade dabei, eine Erweiterung zu installieren, welche es ermöglicht, externe URLs in
+        der Navigation einzubinden. 
+        </p>
+        <br/>
+        <br/>
+        <p>
+        Einfach über SysConfig wie folgend konfigurieren (lediglich der Parameter "URL" unter der "Link"-Option und die "Name"-Option muss geändert werden): 
+	<ul>
+          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
+          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
+	</ul>
+        </p>
+        <br/>
+        <br/>
+        <p>
+        Ihr Znuny Team!
+        <br/>
+        <a href="http://znuny.com/" target="_blank">http://znuny.com</a>
+        </p>
+        <br/>
+        <br/>
+    ]]></IntroInstall>
+</otrs_package>
