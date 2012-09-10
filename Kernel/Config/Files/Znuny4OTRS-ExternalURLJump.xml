@@ -12,7 +12,7 @@
                 <NavBar>
                     <Name Translatable="1">Jump to Znuny!</Name>
                     <Link>Action=ExternalURLJump;URL=http://znuny.com/</Link>
-                    <LinkOption></LinkOption>
+                    <LinkOption>target="_blank"</LinkOption>
                     <NavBar>JumptoExternalURL</NavBar>
                     <Description Translatable="1"></Description>
                     <Type>Menu</Type>
@@ -39,7 +39,7 @@
                     <Type></Type>
                     <NavBar></NavBar>
                     <Link>Action=ExternalURLJump;URL=http://znuny.com/</Link>
-                    <LinkOption></LinkOption>
+                    <LinkOption>target="_blank"</LinkOption>
                     <AccessKey>e</AccessKey>
                     <Prio>10000</Prio>
                 </NavBar>
