@@ -23,7 +23,7 @@ Prerequisites
 
 Download
 ========
-For download see https://github.com/znuny/Znuny4OTRS-ExternalURLJump/downloads/
+For download see http://znuny.com/d/
 
 Commercial Support
 ==================
