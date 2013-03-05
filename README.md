@@ -1,6 +1,6 @@
 External URL Jump
 =================
-With this extention you will be able to add external links to OTRS agent and customer navigation bar.
+With this extention you will be able to add external links to the OTRS agent and customer navigation bar.
 
 Configuration
 =============
@@ -18,8 +18,9 @@ Installation
 Download the package and install it via admin interface -> package manager.
 
 Prerequisites
-* OTRS 3.1
 * OTRS 3.0
+* OTRS 3.1
+* OTRS 3.2
 
 Download
 ========

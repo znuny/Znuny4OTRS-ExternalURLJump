@@ -4,28 +4,29 @@
     <Version>1.0.4</Version>
     <Framework>3.0.x</Framework>
     <Framework>3.1.x</Framework>
+    <Framework>3.2.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
-    <Description Lang="en">A feature to link external URLs in navigation bar.</Description>
-    <Description Lang="de">Eine Funktion um externe URLs aus der Navigation zu verlinkene.</Description>
+    <Description Lang="en">A feature to link external URLs in the navigation bar.</Description>
+    <Description Lang="de">Eine Funktion um externe URLs aus der Navigation zu verlinken.</Description>
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/Znuny4OTRS-ExternalURLJump.xml"/>
         <File Permission="644" Location="Kernel/Modules/ExternalURLJump.pm"/>
     </Filelist>
-    <IntroInstall Type="pre" Title="Installations-Information" Lang="de"><![CDATA[
+    <IntroInstall Type="pre" Title="Installations-Information" Lang="en"><![CDATA[
         <br/>
         <br/>
         Welcome to <u>External URL Jump</u>!
         <br/>
         <br/>
         <p>
-        You are about to install a extention to be able to link to an external URL via navigation bar.
+        You are about to install an extention which enables you to link to an external URL via the navigation bar.
         </p>
         <br/>
         <br/>
         <p>
-        To configure go to (just change the "URL" param in "Link" option and "Name" option):
+        To configure simply go to SysConfig (just change the "URL" param in "Link" option and "Name" option):
 	<ul>
           <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
           <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
@@ -41,7 +42,7 @@
         <br/>
         <br/>
     ]]></IntroInstall>
-    <IntroInstall Type="pre" Title="Pre-Install Information" Lang="en"><![CDATA[
+    <IntroInstall Type="pre" Title="Pre-Install Information" Lang="de"><![CDATA[
         <br/>
         <br/>
         Herzlich Willkommen zum <u>Externer URL Sprung</u>!
@@ -54,7 +55,7 @@
         <br/>
         <br/>
         <p>
-        Einfach über SysConfig wie folgend konfigurieren (lediglich der Parameter "URL" unter der "Link"-Option und die "Name"-Option muss geändert werden): 
+        Einfach über SysConfig wie folgt konfigurieren (lediglich der Parameter "URL" unter der "Link"-Option und die "Name"-Option muss geändert werden): 
 	<ul>
           <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
           <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
