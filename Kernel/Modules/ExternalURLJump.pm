@@ -1,12 +1,6 @@
 # --
-# Kernel/Modules/ExternalURLJump.pm - jump to external URL 
-# Copyright (C) 2011 Znuny, http://znuny.com/
-# --
-# $Id: $
-# --
-# This software comes with ABSOLUTELY NO WARRANTY. For details, see
-# the enclosed file COPYING for license information (AGPL). If you
-# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+# Kernel/Modules/ExternalURLJump.pm - jump to external URL
+# Copyright (C) 2014 Znuny, http://znuny.com/
 # --
 
 package Kernel::Modules::ExternalURLJump;

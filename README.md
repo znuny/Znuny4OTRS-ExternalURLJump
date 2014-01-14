@@ -1,4 +1,4 @@
-![Znuny logo](http://znuny.com/assets/logo_small.png) 
+![Znuny logo](http://znuny.com/assets/logo_small.png)
 
 External URL Jump
 =================
@@ -8,9 +8,13 @@ With this extention you will be able to add external links to the OTRS agent and
 
 - Znuny4OTRS-Repo
 
+- OTRS 3.0
+
 - OTRS 3.1
 
 - OTRS 3.2
+
+- OTRS 3.3
 
 **Installation**
 
@@ -23,7 +27,7 @@ Via SysConfig-Settings
 
 SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration
 
-SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration 
+SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration
 
 Just update:
 
@@ -33,7 +37,7 @@ Just update:
 
 **Download**
 
-For download see [http://znuny.com/d/](http://znuny.com/d/)
+For download see [http://znuny.com/en/#!/addons](http://znuny.com/en/#!/addons)
 
 **Commercial Support**
 
@@ -44,5 +48,4 @@ Enjoy!
  Your Znuny Team!
 
  [http://znuny.com](http://znuny.com)
-
 
