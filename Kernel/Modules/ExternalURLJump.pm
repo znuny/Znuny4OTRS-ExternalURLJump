@@ -1,15 +1,12 @@
 # --
 # Kernel/Modules/ExternalURLJump.pm - jump to external URL
-# Copyright (C) 2014 Znuny, http://znuny.com/
+# Copyright (C) 2015 Znuny, http://znuny.com/
 # --
 
 package Kernel::Modules::ExternalURLJump;
 
 use strict;
 use warnings;
-
-use vars qw($VERSION);
-$VERSION = qw($Revision: 1.12 $) [1];
 
 sub new {
     my ( $Type, %Param ) = @_;

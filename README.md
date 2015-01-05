@@ -16,6 +16,8 @@ With this extention you will be able to add external links to the OTRS agent and
 
 - OTRS 3.3
 
+- OTRS 4.0
+
 **Installation**
 
 Download the package and install it via admin interface -> package manager or use Znuny4OTRS-Repo.
