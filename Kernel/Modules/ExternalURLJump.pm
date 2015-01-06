@@ -32,3 +32,5 @@ sub Run {
 
     return $Self->{LayoutObject}->Redirect( ExtURL => $ExtURL );
 }
+
+1;
