@@ -2,14 +2,8 @@
 <otrs_package version="1.0">
     <Name>Znuny4OTRS-ExternalURLJump</Name>
     <Version>1.2.0</Version>
-    <ChangeLog Version="1.2.0" Date="2015-01-26 12:25:55 +0100">Added  OTRS 4.0 support</ChangeLog>
-    <ChangeLog Version="1.1.0" Date="2014-01-14 14:56:41 +0100">Added OTRS 3.3 support.</ChangeLog>
-    <Framework>3.0.x</Framework>
-    <Framework>3.1.x</Framework>
-    <Framework>3.2.x</Framework>
-    <Framework>3.3.x</Framework>
-    <Framework>4.0.x</Framework>
-    <PackageRequired Version="1.0.0">Znuny4OTRS-Repo</PackageRequired>
+    <Framework>5.0.x</Framework>
+    <PackageRequired Version="3.0.0">Znuny4OTRS-Repo</PackageRequired>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
@@ -18,7 +12,6 @@
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/Znuny4OTRS-ExternalURLJump.xml"/>
         <File Permission="644" Location="Kernel/Modules/ExternalURLJump.pm"/>
-        <File Location="doc/de/Znuny4OTRS-ExternalURLJump.pdf" Permission="644"/>
     </Filelist>
     <IntroInstall Type="pre" Title="Installations-Information" Lang="en"><![CDATA[
         <br/>
@@ -33,10 +26,10 @@
         <br/>
         <p>
         To configure simply go to SysConfig (just change the "URL" param in "Link" option and "Name" option):
-	<ul>
-          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
-          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
-	</ul>
+    <ul>
+        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
+        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
+    </ul>
         </p>
         <br/>
         <br/>
@@ -62,10 +55,10 @@
         <br/>
         <p>
         Einfach über SysConfig wie folgt konfigurieren (lediglich der Parameter "URL" unter der "Link"-Option und die "Name"-Option muss geändert werden):
-	<ul>
-          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
-          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
-	</ul>
+    <ul>
+        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
+        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
+    </ul>
         </p>
         <br/>
         <br/>
