@@ -6,7 +6,6 @@ stages:
 job_deploy_otrs_Znuny4OTRSExternalURLJump:
   stage: deploy
   script:
-    - git --version
     - git checkout $CI_BUILD_REF_NAME
     - git pull  --rebase origin $CI_BUILD_REF_NAME
     - git filter-branch --force --index-filter "git rm --cached --ignore-unmatch './.gitlab-ci.yml'" --prune-empty --tag-name-filter cat -- $CI_BUILD_REF_NAME
