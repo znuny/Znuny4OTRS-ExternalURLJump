@@ -18,7 +18,6 @@
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/Znuny4OTRS-ExternalURLJump.xml"/>
         <File Permission="644" Location="Kernel/Modules/ExternalURLJump.pm"/>
-        <File Location="doc/de/Znuny4OTRS-ExternalURLJump.pdf" Permission="644"/>
     </Filelist>
     <IntroInstall Type="pre" Title="Installations-Information" Lang="en"><![CDATA[
         <br/>
