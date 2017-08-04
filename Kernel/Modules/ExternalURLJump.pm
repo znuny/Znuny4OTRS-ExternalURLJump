@@ -32,6 +32,8 @@ sub Run {
     my ( $Self, %Param ) = @_;
 
     my $ExtURL = $Kernel::OM->Get('Kernel::System::Web::Request')->GetParam( Param => 'URL' );
+    $ExtURL =~ s/_LOGIN_/$Self->{UserLogin}/;
+    $ExtURL =~ s/_EMAIL_/$Self->{UserEmail}/;
 
     return $Kernel::OM->Get('Kernel::Output::HTML::Layout')->Redirect( ExtURL => $ExtURL );
 }

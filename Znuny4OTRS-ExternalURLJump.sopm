@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny4OTRS-ExternalURLJump</Name>
-    <Version>1.3.0</Version>
+    <Version>1.4.0</Version>
     <ChangeLog Version="1.3.0" Date="2015-11-10 14:44:45 UTC">Ported to OTRS 5.0.</ChangeLog>
+    <ChangeLog Version="1.4.0" Date="2017-08-04 10:55:42 UTC">Added _LOGIN_ and _EMAIL_ palceholders</ChangeLog>
     <Framework>5.0.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
