@@ -8,17 +8,7 @@ With this extention you will be able to add external links to the OTRS agent and
 
 - Znuny4OTRS-Repo
 
-- OTRS 3.0
-
-- OTRS 3.1
-
-- OTRS 3.2
-
-- OTRS 3.3
-
-- OTRS 4.0
-
-- OTRS 5.0
+- OTRS 6
 
 **Installation**
 
