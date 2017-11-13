@@ -1,4 +1,11 @@
-image: registry.znuny.com/znuny/docker-otrs5ci:latest
+image: registry.znuny.com/znuny/docker-otrs6ci:latest
+
+services:
+  - mysql:latest
+
+variables:
+  MYSQL_DATABASE: otrs
+  MYSQL_ROOT_PASSWORD: znuny4otrs
 
 stages:
   - deploy
