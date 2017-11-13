@@ -1,7 +1,6 @@
 # --
-# Kernel/Modules/ExternalURLJump.pm - jump to external URL
-# Copyright (C) 2012-2015 Znuny GmbH, http://znuny.com/
-# Copyright (C) 2012-2015 Znuny GmbH, http://znuny.com/
+# Copyright (C) 2012-2017 Znuny GmbH, http://znuny.com/
+# Copyright (C) 2012-2017 Znuny GmbH, http://znuny.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (AGPL). If you
@@ -31,9 +30,12 @@ sub new {
 sub Run {
     my ( $Self, %Param ) = @_;
 
-    my $ExtURL = $Kernel::OM->Get('Kernel::System::Web::Request')->GetParam( Param => 'URL' );
+    my $LayoutObject = $Kernel::OM->Get('Kernel::Output::HTML::Layout');
+    my $ParamObject  = $Kernel::OM->Get('Kernel::System::Web::Request');
 
-    return $Kernel::OM->Get('Kernel::Output::HTML::Layout')->Redirect( ExtURL => $ExtURL );
+    my $ExtURL = $ParamObject->GetParam( Param => 'URL' );
+
+    return $ParamObject->Redirect( ExtURL => $ExtURL );
 }
 
 1;
