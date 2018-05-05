@@ -35,7 +35,7 @@ sub Run {
 
     my $ExtURL = $ParamObject->GetParam( Param => 'URL' );
 
-    return $ParamObject->Redirect( ExtURL => $ExtURL );
+    return $LayoutObject->Redirect( ExtURL => $ExtURL );
 }
 
 1;
