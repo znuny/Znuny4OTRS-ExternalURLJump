@@ -26,25 +26,33 @@
         <Description Translatable="1">Main menu for the agent interface.</Description>
         <Navigation>Frontend::Agent::ModuleRegistration::MainMenu</Navigation>
         <Value>
-            <Hash>
-                <Item Key="Group">
-                    <Array>
-                    </Array>
+            <Array>
+                <DefaultItem ValueType="FrontendNavigation">
+                    <Hash>
+                    </Hash>
+                </DefaultItem>
+                <Item>
+                    <Hash>
+                        <Item Key="Group">
+                            <Array>
+                            </Array>
+                        </Item>
+                        <Item Key="GroupRo">
+                            <Array>
+                            </Array>
+                        </Item>
+                        <Item Key="Description" Translatable="1"></Item>
+                        <Item Key="Name" Translatable="1">Jump to Znuny!</Item>
+                        <Item Key="Link">Action=ExternalURLJump;URL=http://znuny.com/</Item>
+                        <Item Key="LinkOption">target="_blank"</Item>
+                        <Item Key="NavBar">JumptoExternalURL</Item>
+                        <Item Key="Type">Menu</Item>
+                        <Item Key="Block">ItemArea</Item>
+                        <Item Key="AccessKey">e</Item>
+                        <Item Key="Prio">10000</Item>
+                    </Hash>
                 </Item>
-                <Item Key="GroupRo">
-                    <Array>
-                    </Array>
-                </Item>
-                <Item Key="Description" Translatable="1"></Item>
-                <Item Key="Name" Translatable="1">Jump to Znuny!</Item>
-                <Item Key="Link">Action=ExternalURLJump;URL=http://znuny.com/</Item>
-                <Item Key="LinkOption">target="_blank"</Item>
-                <Item Key="NavBar">JumptoExternalURL</Item>
-                <Item Key="Type">Menu</Item>
-                <Item Key="Block">ItemArea</Item>
-                <Item Key="AccessKey">e</Item>
-                <Item Key="Prio">10000</Item>
-            </Hash>
+            </Array>
         </Value>
     </Setting>
     <Setting Name="CustomerFrontend::Module###ExternalURLJump" Required="0" Valid="1">
@@ -72,25 +80,33 @@
         <Description Translatable="1">Main menu for the agent interface.</Description>
         <Navigation>Frontend::Customer::ModuleRegistration::MainMenu</Navigation>
         <Value>
-            <Hash>
-                <Item Key="Group">
-                    <Array>
-                    </Array>
+            <Array>
+                <DefaultItem ValueType="FrontendNavigation">
+                    <Hash>
+                    </Hash>
+                </DefaultItem>
+                <Item>
+                    <Hash>
+                        <Item Key="Group">
+                            <Array>
+                            </Array>
+                        </Item>
+                        <Item Key="GroupRo">
+                            <Array>
+                            </Array>
+                        </Item>
+                        <Item Key="Description" Translatable="1">Jump to Znuny!</Item>
+                        <Item Key="Name" Translatable="1">Jump to Znuny!</Item>
+                        <Item Key="Link">Action=ExternalURLJump;URL=http://znuny.com/</Item>
+                        <Item Key="LinkOption">target="_blank"</Item>
+                        <Item Key="NavBar"></Item>
+                        <Item Key="Type"></Item>
+                        <Item Key="Block"></Item>
+                        <Item Key="AccessKey">e</Item>
+                        <Item Key="Prio">10000</Item>
+                    </Hash>
                 </Item>
-                <Item Key="GroupRo">
-                    <Array>
-                    </Array>
-                </Item>
-                <Item Key="Description" Translatable="1">Jump to Znuny!</Item>
-                <Item Key="Name" Translatable="1">Jump to Znuny!</Item>
-                <Item Key="Link">Action=ExternalURLJump;URL=http://znuny.com/</Item>
-                <Item Key="LinkOption">target="_blank"</Item>
-                <Item Key="NavBar"></Item>
-                <Item Key="Type"></Item>
-                <Item Key="Block"></Item>
-                <Item Key="AccessKey">e</Item>
-                <Item Key="Prio">10000</Item>
-            </Hash>
+            </Array>
         </Value>
     </Setting>
 
