@@ -9,7 +9,7 @@
     <Framework>3.2.x</Framework>
     <Framework>3.3.x</Framework>
     <Framework>4.0.x</Framework>
-    <PackageRequired Version="1.0.0">Znuny4OTRS-Repo</PackageRequired>
+    <PackageRequired Version="4.0.24">Znuny4OTRS-Repo</PackageRequired>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
@@ -32,10 +32,10 @@
         <br/>
         <p>
         To configure simply go to SysConfig (just change the "URL" param in "Link" option and "Name" option):
-	<ul>
-          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
-          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
-	</ul>
+    <ul>
+        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
+        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
+    </ul>
         </p>
         <br/>
         <br/>
@@ -61,10 +61,10 @@
         <br/>
         <p>
         Einfach über SysConfig wie folgt konfigurieren (lediglich der Parameter "URL" unter der "Link"-Option und die "Name"-Option muss geändert werden):
-	<ul>
-          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
-          <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
-	</ul>
+    <ul>
+        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration</li>
+        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration</li>
+    </ul>
         </p>
         <br/>
         <br/>
