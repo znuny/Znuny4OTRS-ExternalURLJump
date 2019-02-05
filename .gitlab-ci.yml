@@ -1,0 +1,9 @@
+image: registry.znuny.com/znuny/docker-otrs6ci:latest
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - sh /sync_repo.sh git@github.com:znuny/Znuny4OTRS-ExternalURLJump.git
