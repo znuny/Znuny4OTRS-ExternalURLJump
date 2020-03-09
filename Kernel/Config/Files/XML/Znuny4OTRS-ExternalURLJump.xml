@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_config version="2.0" init="Application">
-    <!-- nofilter(TidyAll::Plugin::OTRS::Znuny4OTRS::ACLKeysLevel3Actions) -->
+    <!-- nofilter(TidyAll::Plugin::OTRS::Znuny4OTRS::Config::ACLKeysLevel3Actions) -->
     <Setting Name="Frontend::Module###ExternalURLJump" Required="0" Valid="1">
         <Description Translatable="1">Frontend module registration for the agent interface.</Description>
         <Navigation>Frontend::Agent::ModuleRegistration</Navigation>
