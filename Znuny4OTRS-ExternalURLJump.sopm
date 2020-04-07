@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny4OTRS-ExternalURLJump</Name>
-    <Version>6.0.3</Version>
+    <Version>6.0.4</Version>
+    <ChangeLog Version="6.0.4" Date="2020-04-07 18:01:11 +0200">Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.3" Date="2019-02-05 15:56:53 +0100">Header update and tidied code.</ChangeLog>
     <ChangeLog Version="6.0.2" Date="2018-05-09 15:03:22 +0200">- Fixed sysconfig. &#13;
 - Redirect is a method of the LayoutObject.</ChangeLog>
