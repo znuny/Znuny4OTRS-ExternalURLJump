@@ -41,7 +41,7 @@
                             <Array>
                             </Array>
                         </Item>
-                        <Item Key="Description" Translatable="1"></Item>
+                        <Item Key="Description" Translatable="1">Jump to Znuny!</Item>
                         <Item Key="Name" Translatable="1">Jump to Znuny!</Item>
                         <Item Key="Link">Action=ExternalURLJump;URL=http://znuny.com/</Item>
                         <Item Key="LinkOption">target="_blank"</Item>
