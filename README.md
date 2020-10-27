@@ -30,7 +30,7 @@ Just update:
 
 * Name: Your Link Name
 
-* Link: URL=http://host/some_page.html (only URL param) 
+* Link: URL=http://host/some_page.html (only URL param)
 
 **Download**
 
