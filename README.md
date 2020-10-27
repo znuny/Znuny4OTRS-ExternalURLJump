@@ -1,4 +1,7 @@
-![Znuny logo](http://znuny.com/assets/images/logo_small.png)
+![Znuny logo](https://www.znuny.com/assets/images/logo_small.png)
+
+
+![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ExternalURLJump/master)
 
 External URL Jump
 =================
@@ -6,17 +9,9 @@ With this extention you will be able to add external links to the OTRS agent and
 
 **Prerequisites**
 
-- OTRS 3.0
 
-- OTRS 3.1
-
-- OTRS 3.2
-
-- OTRS 3.3
-
-- OTRS 4.0
-
-- OTRS 5.0
+- Znuny4OTRS-Repo
+- OTRS 6
 
 **Installation**
 
@@ -40,14 +35,14 @@ Just update:
 
 **Download**
 
-For download see [http://znuny.com/en/#!/addons](http://znuny.com/en/#!/addons)
+For download see [https://www.znuny.com/en/#!/addons](https://www.znuny.com/en/#!/addons)
 
 **Commercial Support**
 
-For this extension and for OTRS in general visit [http://znuny.com](http://znuny.com). Looking forward to hear from you!
+For this extension and for OTRS in general visit [www.znuny.com](https://www.znuny.com). Looking forward to hear from you!
 
 Enjoy!
 
- Your Znuny Team!
+Your Znuny Team!
 
- [http://znuny.com](http://znuny.com)
+[www.znuny.com](https://www.znuny.com)
