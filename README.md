@@ -31,7 +31,6 @@ Just update:
 * Name: Your Link Name
 
 * Link: URL=http://host/some_page.html (only URL param) 
-* Link now accepts \_EMAIL_ and \_LOGIN_ placeholders
 
 **Download**
 
