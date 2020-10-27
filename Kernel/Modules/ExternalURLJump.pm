@@ -20,7 +20,6 @@ our @ObjectDependencies = (
 sub new {
     my ( $Type, %Param ) = @_;
 
-    # allocate new hash for object
     my $Self = {%Param};
     bless( $Self, $Type );
 
@@ -34,6 +33,19 @@ sub Run {
     my $ParamObject  = $Kernel::OM->Get('Kernel::System::Web::Request');
 
     my $ExtURL = $ParamObject->GetParam( Param => 'URL' );
+
+    my $UserAttributeRegex = qr/\AUser(.+)/;
+    my @UserAttributes     = grep { $_ =~ m{$UserAttributeRegex} } sort keys %{$LayoutObject};
+
+    USERATTRIBUTE:
+    for my $UserAttribute (@UserAttributes) {
+
+        next USERATTRIBUTE if $UserAttribute eq 'UserPw';
+        my $UCUserAttribute = uc($UserAttribute);
+        my $Value           = $LayoutObject->{$UserAttribute};
+
+        $ExtURL =~ s{\_$UCUserAttribute\_}{$Value}smx;
+    }
 
     return $LayoutObject->Redirect( ExtURL => $ExtURL );
 }
