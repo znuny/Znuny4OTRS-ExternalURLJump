@@ -77,7 +77,7 @@
         </Value>
     </Setting>
     <Setting Name="CustomerFrontend::Navigation###ExternalURLJump###1" Required="0" Valid="1">
-        <Description Translatable="1">Main menu for the agent interface.</Description>
+        <Description Translatable="1">Main menu for the customer interface.</Description>
         <Navigation>Frontend::Customer::ModuleRegistration::MainMenu</Navigation>
         <Value>
             <Array>
