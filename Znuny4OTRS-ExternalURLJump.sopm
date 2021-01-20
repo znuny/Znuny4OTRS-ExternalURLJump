@@ -3,7 +3,7 @@
     <Name>Znuny4OTRS-ExternalURLJump</Name>
     <Version>6.0.7</Version>
     <Framework>6.0.x</Framework>
-    <PackageRequired Version="6.0.67">Znuny4OTRS-Repo</PackageRequired>
+    <PackageRequired Version="6.0.71">Znuny4OTRS-Repo</PackageRequired>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
