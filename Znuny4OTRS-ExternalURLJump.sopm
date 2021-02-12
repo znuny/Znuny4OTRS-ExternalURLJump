@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny4OTRS-ExternalURLJump</Name>
-    <Version>6.0.7</Version>
+    <Version>6.0.8</Version>
     <Framework>6.0.x</Framework>
     <PackageRequired Version="6.0.71">Znuny4OTRS-Repo</PackageRequired>
     <Vendor>Znuny GmbH</Vendor>
@@ -9,6 +9,7 @@
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">A feature to link external URLs in the navigation bar.</Description>
     <Description Lang="de">Eine Funktion um externe URLs aus der Navigation zu verlinken.</Description>
+    <ChangeLog Version="6.0.8" Date="2021-02-12 17:39:32 +0100">Happy new year. Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.7" Date="2020-11-03 09:38:03 +0100">Fixed description text in setting.</ChangeLog>
     <ChangeLog Version="6.0.6" Date="2020-10-27 14:35:54 +0100">Removed AccessKey and changed Prio in SysConfig.&#13;
 Improved PullRequest3/Code from @Vykook (thanks 🚀) - placeholders in URL.</ChangeLog>
