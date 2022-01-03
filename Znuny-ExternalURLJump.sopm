@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
-    <Name>Znuny4OTRS-ExternalURLJump</Name>
+    <Name>Znuny-ExternalURLJump</Name>
     <Version>6.0.8</Version>
-    <Framework>6.0.x</Framework>
-    <PackageRequired Version="6.0.71">Znuny4OTRS-Repo</PackageRequired>
+    <Framework>6.1.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
@@ -23,7 +22,7 @@ Applied CP.</ChangeLog>
     <ChangeLog Version="6.0.1" Date="2017-11-13 14:21:43 +0100">Initial release 6.0.x.</ChangeLog>
     <ChangeLog Version="1.3.0" Date="2015-11-10 14:44:45 UTC">Ported to OTRS 5.0.</ChangeLog>
     <Filelist>
-        <File Permission="660" Location="Kernel/Config/Files/XML/Znuny4OTRS-ExternalURLJump.xml"/>
+        <File Permission="660" Location="Kernel/Config/Files/XML/Znuny-ExternalURLJump.xml"/>
         <File Permission="660" Location="Kernel/Modules/ExternalURLJump.pm"/>
     </Filelist>
     <IntroInstall Type="pre" Title="Installations-Information" Lang="en"><![CDATA[
@@ -40,8 +39,8 @@ Applied CP.</ChangeLog>
         <p>
         To configure simply go to SysConfig (just change the "URL" param in "Link" option and "Name" option):
     <ul>
-        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration::MainMenu (Frontend::Navigation###ExternalURLJump###1)</li>
-        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration::MainMenu (CustomerFrontend::Navigation###ExternalURLJump###1)</li>
+        <li>SysConfig -> Znuny-ExternalURLJump -> Frontend::Agent::ModuleRegistration::MainMenu (Frontend::Navigation###ExternalURLJump###1)</li>
+        <li>SysConfig -> Znuny-ExternalURLJump -> Frontend::Customer::ModuleRegistration::MainMenu (CustomerFrontend::Navigation###ExternalURLJump###1)</li>
     </ul>
         </p>
         <br/>
@@ -69,8 +68,8 @@ Applied CP.</ChangeLog>
         <p>
         Einfach über SysConfig wie folgt konfigurieren (lediglich der Parameter "URL" unter der "Link"-Option und die "Name"-Option muss geändert werden):
     <ul>
-        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration::MainMenu (Frontend::Navigation###ExternalURLJump###1)</li>
-        <li>SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration::MainMenu (CustomerFrontend::Navigation###ExternalURLJump###1)</li>
+        <li>SysConfig -> Znuny-ExternalURLJump -> Frontend::Agent::ModuleRegistration::MainMenu (Frontend::Navigation###ExternalURLJump###1)</li>
+        <li>SysConfig -> Znuny-ExternalURLJump -> Frontend::Customer::ModuleRegistration::MainMenu (CustomerFrontend::Navigation###ExternalURLJump###1)</li>
     </ul>
         </p>
         <br/>
@@ -83,4 +82,5 @@ Applied CP.</ChangeLog>
         <br/>
         <br/>
     ]]></IntroInstall>
+    <PackageMerge Name="Znuny4OTRS-ExternalURLJump" TargetVersion="6.0.8"></PackageMerge>
 </otrs_package>

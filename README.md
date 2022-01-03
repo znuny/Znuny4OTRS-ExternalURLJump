@@ -1,30 +1,27 @@
 ![Znuny logo](https://www.znuny.com/assets/images/logo_small.png)
 
-
-![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ExternalURLJump/master)
+![Build status](https://badge.proxy.znuny.com/Znuny-ExternalURLJump/rel-6_1)
 
 External URL Jump
 =================
-With this extention you will be able to add external links to the OTRS agent and customer navigation bar.
+With this extention you will be able to add external links to the Znuny agent and customer navigation bar.
 
 **Prerequisites**
 
-- Znuny4OTRS-Repo
-
-- OTRS 6
+- Znuny 6.1
 
 **Installation**
 
-Download the package and install it via admin interface -> package manager or use Znuny4OTRS-Repo.
+Download the package and install it via admin interface -> package manager or use Znuny-Repo.
 
 
 **Configuration**
 
 Via SysConfig-Settings
 
-SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration
+SysConfig -> Znuny-ExternalURLJump -> Frontend::Agent::ModuleRegistration
 
-SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration
+SysConfig -> Znuny-ExternalURLJump -> Frontend::Customer::ModuleRegistration
 
 Just update:
 
@@ -38,7 +35,7 @@ For download see [https://www.znuny.com/en/#!/addons](https://www.znuny.com/en/#
 
 **Commercial Support**
 
-For this extension and for OTRS in general visit [www.znuny.com](https://www.znuny.com). Looking forward to hear from you!
+For this extension and for Znuny in general visit [www.znuny.com](https://www.znuny.com). Looking forward to hear from you!
 
 Enjoy!
 
