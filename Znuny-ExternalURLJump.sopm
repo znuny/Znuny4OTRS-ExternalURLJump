@@ -8,6 +8,7 @@
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">A feature to link external URLs in the navigation bar.</Description>
     <Description Lang="de">Eine Funktion um externe URLs aus der Navigation zu verlinken.</Description>
+    <ChangeLog Version="6.1.1" Date="2022-01-03 12:26:48 +0100">Ported to OTRS 6.1.</ChangeLog>
     <ChangeLog Version="6.1.1" Date="2022-01-03 10:20:16 +0100">Ported to 6.1.</ChangeLog>
     <ChangeLog Version="6.0.8" Date="2021-02-12 17:39:32 +0100">Happy new year. Tidied code.</ChangeLog>
     <ChangeLog Version="6.0.7" Date="2020-11-03 09:38:03 +0100">Fixed description text in setting.</ChangeLog>
