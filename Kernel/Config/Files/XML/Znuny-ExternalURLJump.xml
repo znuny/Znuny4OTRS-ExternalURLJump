@@ -76,7 +76,7 @@
             </Item>
         </Value>
     </Setting>
-    <Setting Name="CustomerFrontend::Navigation###ExternalURLJump###1" Required="0" Valid="1">
+    <Setting Name="CustomerFrontend::Navigation###ExternalURLJump###1" Required="0" Valid="0">
         <Description Translatable="1">Main menu for the customer interface.</Description>
         <Navigation>Frontend::Customer::ModuleRegistration::MainMenu</Navigation>
         <Value>
@@ -99,10 +99,10 @@
                         <Item Key="Name" Translatable="1">Jump to Znuny!</Item>
                         <Item Key="Link">Action=ExternalURLJump;URL=http://znuny.com/</Item>
                         <Item Key="LinkOption">target="_blank"</Item>
-                        <Item Key="NavBar"></Item>
-                        <Item Key="Type"></Item>
+                        <Item Key="NavBar">Links</Item>
+                        <Item Key="Type">Menu</Item>
                         <Item Key="Block"></Item>
-                        <Item Key="AccessKey"></Item>
+                        <Item Key="AccessKey">x</Item>
                         <Item Key="Prio">10001</Item>
                     </Hash>
                 </Item>
