@@ -2,9 +2,9 @@
 
 Via SysConfig-Einstellungen
 
-SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Agent::ModuleRegistration
+SysConfig -> Znuny-ExternalURLJump -> Frontend::Agent::ModuleRegistration
 
-SysConfig -> Znuny4OTRS-ExternalURLJump -> Frontend::Customer::ModuleRegistration
+SysConfig -> Znuny-ExternalURLJump -> Frontend::Customer::ModuleRegistration
 
 Aktualisierung
 
