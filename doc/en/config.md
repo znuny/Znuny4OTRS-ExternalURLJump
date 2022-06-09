@@ -31,7 +31,4 @@ The part of the key `Link` that can be freely configured is the parameter `URL` 
  - `_USERTITLE_`
  - `_USERTYPE_`
 
- ::: tip :::
- Check existing sessions via the admin interface. All keys starting with `User` can be used. Just convert them to uppercase. 
- :::::::::::
-
+ Tip:  Check existing sessions via the admin interface. All keys starting with `User` can be used. Just convert them to uppercase.
