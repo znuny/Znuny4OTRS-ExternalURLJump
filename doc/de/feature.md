@@ -1,4 +1,3 @@
 # Funktionalität
 
-Mit dieser Erweiterung erhalten Sie die Möglichkeit, externe Links in der Agenten Navigationsleiste
-einzufügen.
+Mit diesem Add-on erhalten Sie die Möglichkeit, in der Navigationsleiste der Agenten- und Kundenoberfläche Menüeinträge mit Links zu externen URLs hinzuzufügen.
