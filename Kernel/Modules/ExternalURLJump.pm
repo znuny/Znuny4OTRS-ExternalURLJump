@@ -41,6 +41,7 @@ sub Run {
     for my $UserAttribute (@UserAttributes) {
 
         next USERATTRIBUTE if $UserAttribute eq 'UserPw';
+        next USERATTRIBUTE if $UserAttribute eq 'UserChallengeToken';
         my $UCUserAttribute = uc($UserAttribute);
         my $Value           = $LayoutObject->{$UserAttribute};
 
