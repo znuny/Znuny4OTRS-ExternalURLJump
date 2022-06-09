@@ -25,62 +25,54 @@ Applied CP.</ChangeLog>
         <File Permission="660" Location="Kernel/Config/Files/XML/Znuny-ExternalURLJump.xml"/>
         <File Permission="660" Location="Kernel/Modules/ExternalURLJump.pm"/>
     </Filelist>
-    <IntroInstall Type="pre" Title="Installations-Information" Lang="en"><![CDATA[
+    <IntroInstall Type="pre" Title="Information" Lang="en"><![CDATA[
         <br/>
         <br/>
-        Welcome to <u>External URL Jump</u>!
+        Welcome!
         <br/>
         <br/>
         <p>
-        You are about to install an extention which enables you to link to an external URL via the navigation bar.
+        You are about to install an add-on that will allow you to add links to external URLs in the navigation of agents and customers.
         </p>
         <br/>
         <br/>
         <p>
-        To configure simply go to SysConfig (just change the "URL" param in "Link" option and "Name" option):
-    <ul>
-        <li>SysConfig -> Znuny-ExternalURLJump -> Frontend::Agent::ModuleRegistration::MainMenu (Frontend::Navigation###ExternalURLJump###1)</li>
-        <li>SysConfig -> Znuny-ExternalURLJump -> Frontend::Customer::ModuleRegistration::MainMenu (CustomerFrontend::Navigation###ExternalURLJump###1)</li>
-    </ul>
+        The documentation described the configuration for this add-on. Download the documentation PDF via the package manager.
         </p>
         <br/>
         <br/>
         <p>
         Your Znuny Team!
         <br/>
-        <a href="http://znuny.com/" target="_blank">http://znuny.com</a>
+        <a href="https://www.znuny.com/" target="_blank">https://www.znuny.com</a>
         </p>
         <br/>
         <br/>
     ]]></IntroInstall>
-    <IntroInstall Type="pre" Title="Pre-Install Information" Lang="de"><![CDATA[
+    <IntroInstall Type="pre" Title="Information" Lang="de"><![CDATA[
         <br/>
         <br/>
-        Herzlich Willkommen zum <u>Externer URL Sprung</u>!
+        Herzlich Willkommen!
         <br/>
         <br/>
         <p>
-        Sie sind gerade dabei, eine Erweiterung zu installieren, welche es ermöglicht, externe URLs in
-        der Navigation einzubinden.
+        Sie sind gerade dabei, eine Erweiterung zu installieren, welche es ermöglicht, Links zu externen URLs in
+        der Navigation der Agenten als auch Kundenbenutzer einzubinden.
         </p>
         <br/>
         <br/>
         <p>
-        Einfach über SysConfig wie folgt konfigurieren (lediglich der Parameter "URL" unter der "Link"-Option und die "Name"-Option muss geändert werden):
-    <ul>
-        <li>SysConfig -> Znuny-ExternalURLJump -> Frontend::Agent::ModuleRegistration::MainMenu (Frontend::Navigation###ExternalURLJump###1)</li>
-        <li>SysConfig -> Znuny-ExternalURLJump -> Frontend::Customer::ModuleRegistration::MainMenu (CustomerFrontend::Navigation###ExternalURLJump###1)</li>
-    </ul>
+        Details zur Konfiguration entnehmen Sie dem PDF das Sie über den Paketmanager herunterladen können.
         </p>
         <br/>
         <br/>
         <p>
         Ihr Znuny Team!
         <br/>
-        <a href="http://znuny.com/" target="_blank">http://znuny.com</a>
+        <a href="https://www.znuny.com/" target="_blank">https://www.znuny.com</a>
         </p>
         <br/>
         <br/>
     ]]></IntroInstall>
-    <PackageMerge Name="Znuny4OTRS-ExternalURLJump" TargetVersion="6.0.8"></PackageMerge>
+    <PackageMerge Name="Znuny4OTRS-ExternalURLJump" TargetVersion="6.3.0"></PackageMerge>
 </otrs_package>
