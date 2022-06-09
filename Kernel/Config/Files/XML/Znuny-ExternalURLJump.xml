@@ -43,7 +43,7 @@
                         </Item>
                         <Item Key="Description" Translatable="1">Jump to Znuny!</Item>
                         <Item Key="Name" Translatable="1">Jump to Znuny!</Item>
-                        <Item Key="Link">Action=ExternalURLJump;URL=http://znuny.com/</Item>
+                        <Item Key="Link">Action=ExternalURLJump;URL=https://www.znuny.com/</Item>
                         <Item Key="LinkOption">target="_blank"</Item>
                         <Item Key="NavBar">JumptoExternalURL</Item>
                         <Item Key="Type">Menu</Item>
@@ -97,12 +97,12 @@
                         </Item>
                         <Item Key="Description" Translatable="1">Jump to Znuny!</Item>
                         <Item Key="Name" Translatable="1">Jump to Znuny!</Item>
-                        <Item Key="Link">Action=ExternalURLJump;URL=http://znuny.com/</Item>
+                        <Item Key="Link">Action=ExternalURLJump;URL=https://www.znuny.com/</Item>
                         <Item Key="LinkOption">target="_blank"</Item>
                         <Item Key="NavBar">Links</Item>
                         <Item Key="Type">Menu</Item>
                         <Item Key="Block"></Item>
-                        <Item Key="AccessKey">x</Item>
+                        <Item Key="AccessKey"></Item>
                         <Item Key="Prio">10001</Item>
                     </Hash>
                 </Item>
