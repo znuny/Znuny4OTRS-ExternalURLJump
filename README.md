@@ -31,7 +31,7 @@ Just update:
 
 **Download**
 
-For download see [https://www.znuny.com/en/#!/addons](https://www.znuny.com/en/#!/addons)
+Download the [latest version](https://addons.znuny.com/api/addon_repos/public/2332/latest).
 
 **Commercial Support**
 
