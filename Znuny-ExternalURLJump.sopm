@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny-ExternalURLJump</Name>
-    <Version>6.4.1</Version>
+    <Version>6.5.1</Version>
     <Framework>6.5.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>http://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">A feature to link external URLs in the navigation bar.</Description>
     <Description Lang="de">Eine Funktion um externe URLs aus der Navigation zu verlinken.</Description>
+    <ChangeLog Version="6.5.1" Date="2023-02-20 13:50:03 +0100">Initial release for Znuny 6.5.</ChangeLog>
     <ChangeLog Version="6.4.1" Date="2022-07-27 22:19:44 +0200">initial release for Znuny 6.4</ChangeLog>
     <ChangeLog Version="6.3.1" Date="2022-06-09 14:32:37 +0200">Migrated to Znuny 6.3</ChangeLog>
     <ChangeLog Version="6.0.8" Date="2021-02-12 17:39:32 +0100">Happy new year. Tidied code.</ChangeLog>
