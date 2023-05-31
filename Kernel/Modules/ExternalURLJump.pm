@@ -11,6 +11,7 @@ package Kernel::Modules::ExternalURLJump;
 
 use strict;
 use warnings;
+use utf8;
 
 our @ObjectDependencies = (
     'Kernel::Output::HTML::Layout',
