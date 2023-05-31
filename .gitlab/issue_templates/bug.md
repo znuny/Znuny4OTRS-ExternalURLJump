@@ -42,6 +42,6 @@ Steps to reproduce the behavior:
 <!-- If possible, create a __[VZ](https://znuny.zammad.com/#vz_systems)__ here that exhibits or displays the problematic behavior and link the VZ here in the Issue. -->
 
 <!--
-[vz???](http://vz???.test.znuny.com/otrs/index.pl) -->
+[vz???](http://vz???.test.znuny.com/znuny/index.pl) -->
 
 /label ~Bug
