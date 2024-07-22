@@ -1,6 +1,6 @@
 ![Znuny logo](https://www.znuny.com/assets/images/logo_small.png)
 
-![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ExternalURLJump/rel-7_0)
+![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ExternalURLJump/rel-7_1)
 
 External URL Jump
 =================
@@ -8,7 +8,7 @@ With this extention you will be able to add external links to the Znuny agent an
 
 **Prerequisites**
 
-- Znuny 7.0
+- Znuny 7.1
 
 **Installation**
 
