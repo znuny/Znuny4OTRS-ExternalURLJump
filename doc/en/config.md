@@ -6,6 +6,8 @@ For the agent interface it is the setting `Frontend::Navigation###ExternalURLJum
 
 The part of the key `Link` that can be freely configured is the parameter `URL` value. Set this to your desired URL. The value of the URL can use one or more placeholders with the schema `_xx_` where xx could be anything from the following list.
 
+__IMPORTANT:__ The value of parameter `URL` must be given URL encoded. If the link is e.g. `https://www.example.org/?User=Test;Language=_USERLANGUAGE_`, it has to be given as: `https%3A%2F%2Fwww.example.org%2F%3FUser%3DTest%3BLanguage%3D_USERLANGUAGE_`. Also, the configured link has to be given in exactly the following form: `Action=ExternalURLJump;URL=...`.
+
 
 ## Placeholders
 

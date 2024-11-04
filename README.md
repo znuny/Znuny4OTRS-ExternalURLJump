@@ -4,7 +4,7 @@
 
 External URL Jump
 =================
-With this extention you will be able to add external links to the Znuny agent and customer navigation bar.
+With this add-on you get the possibility to add menu items with links to external URLs in the navigation bar of the agent and customer interface.
 
 **Prerequisites**
 
@@ -12,33 +12,26 @@ With this extention you will be able to add external links to the Znuny agent an
 
 **Installation**
 
-Download the package and install it via admin interface -> package manager or use the Znuny Open Source repository.
+Use the online repository **Znuny Open Source Add-ons** from the package manager to install the add-on. From the command line use this command: `bin/znuny.Console.pl Admin::Package::Install  https://addons.znuny.com/public/:Znuny-ExternalURLJump`
 
 
 **Configuration**
 
-Via SysConfig-Settings
+Via system configuration settings:
 
-SysConfig -> Znuny-ExternalURLJump -> Frontend::Agent::ModuleRegistration
-
-SysConfig -> Znuny-ExternalURLJump -> Frontend::Customer::ModuleRegistration
+* Znuny-ExternalURLJump -> Frontend::Agent::ModuleRegistration
+* Znuny-ExternalURLJump -> Frontend::Customer::ModuleRegistration
 
 Just update:
 
-* Name: Your Link Name
-
-* Link: URL=http://host/some_page.html (only URL param)
-
-**Download**
-
-Download the [latest version](https://addons.znuny.com/api/addon_repos/public/3048/latest).
+* Name: Your link name
+* Link: `URL=http://host/some_page.html` (only URL param)
 
 **Commercial Support**
 
-For this extension and for Znuny in general visit [www.znuny.com](https://www.znuny.com). Looking forward to hear from you!
+For this add-on and for Znuny in general visit [www.znuny.com](https://www.znuny.com). Looking forward to hear from you.
 
-Enjoy!
 
 Your Znuny Team!
 
-[www.znuny.com](https://www.znuny.com)
+[https://www.znuny.com](https://www.znuny.com)

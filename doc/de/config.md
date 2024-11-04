@@ -6,6 +6,8 @@ Für die Agentenoberfläche ist es die Einstellung `Frontend::Navigation###Exter
 
 Der Teil des Schlüssels `Link`, der frei konfiguriert werden kann, ist der Wert des Parameters `URL`. Setzen Sie diesen auf die gewünschte URL. Der Wert der URL kann einen oder mehrere Platzhalter mit dem Schema `_xx_` verwenden, wobei xx alles aus der folgenden Liste sein kann.
 
+__WICHTIG:__ Der Wert des Paramters `URL` muss URL-encodiert hinterlegt werden. Wenn der Link z. B. `https://www.example.org/?User=Test;Language=_USERLANGUAGE_` lautet, so muss folgender Wert dafür eingetragen werden: `https%3A%2F%2Fwww.example.org%2F%3FUser%3DTest%3BLanguage%3D_USERLANGUAGE_`. Außerdem muss der konfigurierte Link in exakt folgender Form angegeben werden: `Action=ExternalURLJump;URL=...`.
+
 
 ## Platzhalter
 
