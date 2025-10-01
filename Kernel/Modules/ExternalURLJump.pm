@@ -69,7 +69,7 @@ sub Run {
             if ( $Link !~ m{\AAction=ExternalURLJump;URL=(.+)} ) {
                 $LogObject->Log(
                     Priority => 'error',
-                    Message =>
+                    Message  =>
                         "Configured link for external URL jump has not the expected format (see configuration documentation): '$Link'"
                 );
                 next ELEMENT;
