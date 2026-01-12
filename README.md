@@ -1,6 +1,6 @@
 ![Znuny logo](https://www.znuny.com/assets/images/logo_small.png)
 
-![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ExternalURLJump/rel-7_2)
+![Build status](https://badge.proxy.znuny.com/Znuny4OTRS-ExternalURLJump/rel-7_3)
 
 External URL Jump
 =================
@@ -8,7 +8,7 @@ With this add-on you get the possibility to add menu items with links to externa
 
 **Prerequisites**
 
-- Znuny 7.2
+- Znuny 7.3
 
 **Installation**
 
