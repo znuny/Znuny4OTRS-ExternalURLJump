@@ -31,7 +31,8 @@ Applied CP.</ChangeLog>
     <ChangeLog Version="1.3.0" Date="2015-11-10 14:44:45 UTC">Ported to OTRS 5.0.</ChangeLog>
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/Znuny-ExternalURLJump.xml"/>
-        <File Permission="660" Location="Kernel/Modules/ExternalURLJump.pm"/>
+        <File Permission="660" Location="Kernel/Modules/AgentExternalURLJump.pm"/>
+        <File Permission="660" Location="Kernel/Modules/CustomerExternalURLJump.pm"/>
     </Filelist>
     <IntroInstall Type="pre" Title="Information" Lang="en"><![CDATA[
         <br/>

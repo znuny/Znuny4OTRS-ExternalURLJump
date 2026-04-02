@@ -7,7 +7,7 @@
 # did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 # --
 
-package Kernel::Modules::ExternalURLJump;
+package Kernel::Modules::AgentExternalURLJump;
 
 use strict;
 use warnings;
@@ -58,7 +58,7 @@ sub Run {
     }
 
     my $URLIsConfigured;
-    my $ExternalURLJumpConfigs = $FrontendNavigationConfig->{ExternalURLJump} // {};
+    my $ExternalURLJumpConfigs = $FrontendNavigationConfig->{AgentExternalURLJump} // {};
 
     EXTERNALURLJUMPCONFIGKEY:
     for my $ExternalURLJumpConfigKey ( sort keys %{$ExternalURLJumpConfigs} ) {
@@ -66,7 +66,7 @@ sub Run {
         for my $Element ( @{ $ExternalURLJumpConfigs->{$ExternalURLJumpConfigKey} // [] } ) {
             my $Link = $Element->{Link} // '';
 
-            if ( $Link !~ m{\AAction=ExternalURLJump;URL=(.+)} ) {
+            if ( $Link !~ m{\AAction=AgentExternalURLJump;URL=(.+)} ) {
                 $LogObject->Log(
                     Priority => 'error',
                     Message  =>
