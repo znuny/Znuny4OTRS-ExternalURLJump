@@ -34,7 +34,51 @@ Applied CP.</ChangeLog>
         <File Permission="660" Location="Kernel/Config/Files/XML/Znuny-ExternalURLJump.xml"/>
         <File Permission="660" Location="Kernel/Modules/AgentExternalURLJump.pm"/>
         <File Permission="660" Location="Kernel/Modules/CustomerExternalURLJump.pm"/>
+        <File Permission="660" Location="var/packagesetup/ZnunyExternalURLJump.pm"/>
+        <File Permission="660" Location="scripts/test/ZnunyExternalURLJump/CodeUpgrade733.t"/>
+        <File Permission="660" Location="scripts/test/sample/ZnunyExternalURLJump/OldSettingsBefore732/OldSettings.xml"/>
     </Filelist>
+    <CodeUpgrade Version="7.3.3" Type="pre"><![CDATA[
+        # capture current values of settings that were renamed in 7.3.2, before this upgrade removes them
+        my $CacheObject     = $Kernel::OM->Get('Kernel::System::Cache');
+        my $SysConfigObject = $Kernel::OM->Get('Kernel::System::SysConfig');
+
+        # make sure this code section is the same as in file scripts/test/ZnunyExternalURLJump/CodeUpgrade733.t
+
+        my %RenamedSettings = (
+            'Frontend::Module###ExternalURLJump'                 => 'Frontend::Module###AgentExternalURLJump',
+            'Frontend::Navigation###ExternalURLJump###1'         => 'Frontend::Navigation###AgentExternalURLJump###1',
+            'CustomerFrontend::Module###ExternalURLJump'         => 'CustomerFrontend::Module###CustomerExternalURLJump',
+            'CustomerFrontend::Navigation###ExternalURLJump###1' => 'CustomerFrontend::Navigation###CustomerExternalURLJump###1',
+        );
+
+        OLDNAME:
+        for my $OldName ( sort keys %RenamedSettings ) {
+            my %Setting = $SysConfigObject->SettingGet(
+                Name  => $OldName,
+                NoLog => 1,
+            );
+
+            next OLDNAME if !%Setting;
+            next OLDNAME if !$Setting{IsModified};
+
+            $CacheObject->Set(
+                Type  => 'ZnunyExternalURLJumpUpgrade733',
+                Key   => $RenamedSettings{$OldName},
+                Value => {
+                    IsValid        => $Setting{IsValid},
+                    EffectiveValue => $Setting{EffectiveValue},
+                },
+                TTL => 60 * 30,
+            );
+        }
+    ]]></CodeUpgrade>
+    <CodeUpgrade Version="7.3.3" Type="post"><![CDATA[
+        # files are installed by now, so the packagesetup module can be loaded to do the actual restore
+        $Kernel::OM->Get( 'var::packagesetup::ZnunyExternalURLJump' )->CodeUpgrade(
+            Version => $Code->{Version},
+        );
+    ]]></CodeUpgrade>
     <IntroInstall Type="pre" Title="Information" Lang="en"><![CDATA[
         <br/>
         <br/>
